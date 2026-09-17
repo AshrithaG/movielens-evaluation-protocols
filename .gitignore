@@ -1,0 +1,7 @@
+# MovieLens may not be redistributed; download it locally into data/.
+data/
+cache/
+.venv/
+.venv-ml/
+__pycache__/
+.pytest_cache/

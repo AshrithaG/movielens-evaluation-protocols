@@ -1,0 +1,230 @@
+{
+  "full_test_period": {
+    "ease_ndcg": 0.26158604403615,
+    "variants": {
+      "sanity: EASE rank only": {
+        "ndcg": 0.24368951989607318,
+        "minus_ease": [
+          -0.017896524140076756,
+          -0.02267852196579103,
+          -0.013149275000078179
+        ]
+      },
+      "pooled, all users": {
+        "ndcg": 0.19371683391366998,
+        "minus_ease": [
+          -0.06786921012247998,
+          -0.07758630963887495,
+          -0.05836669794961246
+        ]
+      },
+      "pooled, multi-session users": {
+        "ndcg": 0.1997705438609078,
+        "minus_ease": [
+          -0.06181550017524214,
+          -0.07077142282214559,
+          -0.0531356534019751
+        ]
+      },
+      "pooled, single-session users": {
+        "ndcg": 0.18029422170854845,
+        "minus_ease": [
+          -0.08129182232760149,
+          -0.09182367460019088,
+          -0.07135962602464455
+        ]
+      },
+      "per generator, all users": {
+        "ndcg": 0.19551458386570755,
+        "minus_ease": [
+          -0.06607146017044237,
+          -0.07638112686238778,
+          -0.0561021816792846
+        ]
+      },
+      "per generator, multi-session users": {
+        "ndcg": 0.1911288147068465,
+        "minus_ease": [
+          -0.07045722932930346,
+          -0.08045253335373558,
+          -0.06087384281143037
+        ]
+      },
+      "sanity: EASE rank only, monotone": {
+        "ndcg": 0.26024878213366853,
+        "minus_ease": [
+          -0.0013372619024814452,
+          -0.001983864665671253,
+          -0.0006882678419888285
+        ]
+      },
+      "per generator, all users, monotone": {
+        "ndcg": 0.2091688075636221,
+        "minus_ease": [
+          -0.052417236472527814,
+          -0.06196778244842932,
+          -0.04305264599091235
+        ]
+      },
+      "per generator, multi-session users, monotone": {
+        "ndcg": 0.20671756377350886,
+        "minus_ease": [
+          -0.05486848026264109,
+          -0.06411669338946306,
+          -0.04608809580496473
+        ]
+      }
+    },
+    "contrasts": {
+      "feature layout: per generator, all users minus pooled, all users": [
+        0.0017977499520376251,
+        -0.005020296672187503,
+        0.0085845524890115
+      ],
+      "feature layout, multi-session: per generator, multi-session users minus pooled, multi-session users": [
+        -0.008641729154061315,
+        -0.01597814661606942,
+        -0.0013960253004953556
+      ],
+      "training users: pooled, multi-session users minus pooled, single-session users": [
+        0.019476322152359348,
+        0.012419022079656955,
+        0.026706857568217616
+      ],
+      "training users, per generator: per generator, multi-session users minus per generator, all users": [
+        -0.004385769158861097,
+        -0.011716128734112288,
+        0.0029515994878923334
+      ],
+      "monotone, sanity: sanity: EASE rank only, monotone minus sanity: EASE rank only": [
+        0.016559262237595313,
+        0.01182826173407718,
+        0.021392805059136936
+      ],
+      "monotone, per generator: per generator, all users, monotone minus per generator, all users": [
+        0.013654223697914542,
+        0.008566908642057945,
+        0.018828324942448477
+      ],
+      "monotone, multi-session: per generator, multi-session users, monotone minus per generator, multi-session users": [
+        0.015588749066662366,
+        0.009615446669612344,
+        0.02161512436027164
+      ]
+    }
+  },
+  "first_30_days": {
+    "ease_ndcg": 0.11349817815213406,
+    "variants": {
+      "sanity: EASE rank only": {
+        "ndcg": 0.10689651322252203,
+        "minus_ease": [
+          -0.006601664929612022,
+          -0.012913019959195624,
+          -0.0002574223165064031
+        ]
+      },
+      "pooled, all users": {
+        "ndcg": 0.08761060687624662,
+        "minus_ease": [
+          -0.025887571275887436,
+          -0.0374530313932349,
+          -0.014467802517972457
+        ]
+      },
+      "pooled, multi-session users": {
+        "ndcg": 0.08694056952943847,
+        "minus_ease": [
+          -0.026557608622695583,
+          -0.03678606993987017,
+          -0.016688666744988447
+        ]
+      },
+      "pooled, single-session users": {
+        "ndcg": 0.08519200831842567,
+        "minus_ease": [
+          -0.028306169833708372,
+          -0.04113702618134468,
+          -0.016016684879956247
+        ]
+      },
+      "per generator, all users": {
+        "ndcg": 0.09435697101676752,
+        "minus_ease": [
+          -0.01914120713536654,
+          -0.03180886061915747,
+          -0.006896380716581417
+        ]
+      },
+      "per generator, multi-session users": {
+        "ndcg": 0.08494661695309841,
+        "minus_ease": [
+          -0.028551561199035642,
+          -0.03951609652047886,
+          -0.01795008249268465
+        ]
+      },
+      "sanity: EASE rank only, monotone": {
+        "ndcg": 0.11289387488072379,
+        "minus_ease": [
+          -0.0006043032714102605,
+          -0.001401977967407472,
+          0.00019376428825431652
+        ]
+      },
+      "per generator, all users, monotone": {
+        "ndcg": 0.10112798494720408,
+        "minus_ease": [
+          -0.012370193204929967,
+          -0.023704069140204242,
+          -0.0012712055555643513
+        ]
+      },
+      "per generator, multi-session users, monotone": {
+        "ndcg": 0.10012115381778845,
+        "minus_ease": [
+          -0.013377024334345596,
+          -0.024209305072775376,
+          -0.002781235083211266
+        ]
+      }
+    },
+    "contrasts": {
+      "feature layout: per generator, all users minus pooled, all users": [
+        0.006746364140520893,
+        -0.0020331466510635694,
+        0.01552393778653522
+      ],
+      "feature layout, multi-session: per generator, multi-session users minus pooled, multi-session users": [
+        -0.001993952576340056,
+        -0.010682176206181698,
+        0.006586765823079498
+      ],
+      "training users: pooled, multi-session users minus pooled, single-session users": [
+        0.0017485612110127889,
+        -0.00680238292537336,
+        0.010596560862925507
+      ],
+      "training users, per generator: per generator, multi-session users minus per generator, all users": [
+        -0.009410354063669099,
+        -0.019405589540020238,
+        0.00021235532716513175
+      ],
+      "monotone, sanity: sanity: EASE rank only, monotone minus sanity: EASE rank only": [
+        0.005997361658201762,
+        -0.0004458774274679898,
+        0.012428822650080178
+      ],
+      "monotone, per generator: per generator, all users, monotone minus per generator, all users": [
+        0.006771013930436575,
+        -0.00105848508803435,
+        0.014652091655318934
+      ],
+      "monotone, multi-session: per generator, multi-session users, monotone minus per generator, multi-session users": [
+        0.01517453686469004,
+        0.007309683906334929,
+        0.023281422603395302
+      ]
+    }
+  }
+}
